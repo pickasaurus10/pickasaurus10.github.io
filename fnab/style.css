@@ -1,0 +1,11 @@
+body {
+	background-color: #333333;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+iframe {
+  text-align: center;
+}
