@@ -1,0 +1,26 @@
+body {
+  background-color: #030303;
+  color: #ffffff;;
+  color-scheme: dark;
+  margin: 20px;
+  padding: 20px;
+  font-family: papyrus;
+}
+html {
+  height: 50%;
+  width: 100%;
+  
+}
+button {
+  border: dashed;
+  border-radius: 25px;
+  border-color: #ffffff;
+  height: 75px;
+  width: 200px;
+  font-size: 40px;
+  font-family: papyrus;
+  
+}
+h1 {
+  font-size: 50px;
+}

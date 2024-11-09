@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Dnd Chacter Creater</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <h1>D&D Name Generator</h1>
+  <label for="genName">Generate First Name:</label>
+  <input id="genName" class="genName" type="checkbox">
+  <br>
+  <label for="firstName">First Name:</label>
+  <input type="text" id="firstName" placeholder="Enter First naem here">
+  <h3>Gender</h3>
+  <input type="checkbox" class="male" id="male"> <label for="male">Male</label>
+  <input type="checkbox" id="female" class="female"> <label for="female">Female</label>
+  <input type="checkbox" id="neither" class="neither"> <label for="neither">Neither</label>
+  <br>
+  <br>
+  <button onclick="gennaem();"><b>Generate</b></button>
+  <br>
+  <br>
+  <h2 id="name"></h2>
+  <br><br><br><br><br><br>
+  <h1>D&D Background Generator</h1>
+  <br>
+  <h3>Background</h3>
+  <input type="checkbox" id="test" class="test"> <label for="test">TEST</label>
+  <br>
+  <input type="checkbox" id="test" class="test"> <label for="test">TEST</label>
+  <br>
+  <label for="blood">Blood type:</label>
+  <select id="blood" name="blood">
+    <option value="Full-blood">Full-blood</option>
+    <option value="Tiefling">Tiefling</option>
+    <option value="Half-elf">Half-elf</option>
+    <option value="Half-orc">Half-ork</option>
+  </select>
+  <br>
+  <button onclick="genback();"><b>Generate</b></button>
+  <br>
+  <br>
+  <p id="background"></p>
+</body>
+
+</html>
